@@ -8,7 +8,7 @@ int main()
 int x;
 
  {
-    printf("You entered : ");
+    printf("You entered: ");
     scanf("%f",x);
     return 0;
 }
