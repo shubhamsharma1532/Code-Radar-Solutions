@@ -2,7 +2,7 @@
 
 int main() {
     float x,y,z;
-    scanf("%f %f,&x &y");
+    scanf("%.2f %.2f,&x &y");
     z = x*y;
     printf("Product: %.2f",z);
     return 0;
