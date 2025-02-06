@@ -1,17 +1,7 @@
 #include <stdio.h>
-int main(){
-    int str[100];
-    scanf("%s",&str);
-    printf("Name: %s",str);
-    
-    int x;
-    scanf("%d",x);
-    printf("Age: %d",x);
-    
-    int str[100];
-    scanf("%s",&str);
-    printf("Hobby: %s",str);
-
+int main() {
+    char Name[10],Age[10],Hobby[10];
+    scanf("%s %s %s",&Name,&Age,&Hobby);
+    printf("Name: %s\nAge: %s\nHobby: %s\n",Name,Age,Hobby);
     return 0;
-    
-    }
+}                        
