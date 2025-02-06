@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int x,y,z;
+    int x,y,z,average;
     scanf("%d%d%d",&x,&y,&z);
-    avg = (x+y+z)/2;
-    printf("Average: %d%d%d",avg);
+    average = (x+y+z)/2;
+    printf("Average: %d%d%d",average);
     return 0;
 
 }
