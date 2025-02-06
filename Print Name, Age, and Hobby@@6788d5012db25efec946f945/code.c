@@ -10,7 +10,7 @@ int main(){
     
     int str[100];
     scanf("%s",&str);
-    printf("Name: %s",str);
+    printf("Hobby: %s",str);
 
     return 0;
     
