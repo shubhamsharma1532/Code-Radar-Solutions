@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int x;
+    int a;
     scanf("%d",&x);
     if(a & 1){
         printf("Set");
