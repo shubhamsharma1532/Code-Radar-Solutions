@@ -11,4 +11,5 @@ int main(){
     else{
         printf("Isosceles");
     }
+    return 0;
 }
