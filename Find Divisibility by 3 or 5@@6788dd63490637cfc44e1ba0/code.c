@@ -8,8 +8,11 @@ int main(){
     else if(x%3 == 0){
         printf("Divisible by 3");
     }
-    else{
+    else if(x%5 == o){
         printf("Divisible by 5");
+    }
+    else {
+        printf("Not Divisible");
     }
     return 0;
 
