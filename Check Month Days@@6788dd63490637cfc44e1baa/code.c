@@ -3,40 +3,40 @@ int main(){
     int x;
     scanf("%d",&x);
     if(x=='1'){
-        printf("January");
+        printf("31");
     }
     else if(x=='2'){
-        printf("February");
+        printf("28");
     }
     else if(x=='3'){
-        printf("March");
+        printf("31");
     }
     else if(x=='4'){
-        printf("April");
+        printf("30");
     }
     else if(x=='5'){
-        printf("May");
+        printf("31");
     }
     else if(x=='6'){
-        printf("June");
+        printf("30");
     }
     else if(x=='7'){
-        printf("July");
+        printf("31");
     }
     else if(x=='8'){
-        printf("August");
+        printf("31");
     }
     else if(x=='9'){
-        printf("September");
+        printf("30");
     }
     else if(x=='10'){
-        printf("October");
+        printf("31");
     }
     else if(x=='11'){
-        printf("November");
+        printf("30");
     }
     else if(x=='12'){
-        printf("December");
+        printf("31");
     }
     return 0;
 }
