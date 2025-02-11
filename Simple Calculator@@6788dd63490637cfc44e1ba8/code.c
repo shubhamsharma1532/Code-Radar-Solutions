@@ -20,6 +20,9 @@ int main(){
         else {
             printf("error");
         }
+    else{
+        printf("error");
+    }
         
     }
     return 0;
