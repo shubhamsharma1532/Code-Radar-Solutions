@@ -3,8 +3,24 @@ int main(){
     int x,y;
     char ch;
     scanf("%d%d%c",&x,&y,&ch);
-    if(xy+ || xy- || xy* || xy/){
-        printf("%d",x,y);
+    if(ch == '+'){
+        printf("%d",x+y);
+    }
+    else if(ch == '-'){
+        printf("%d",x-y);
+    }
+    else if(ch == '*'){
+        printf("%d",*y);
+    }
+    else if(ch == '/'){
+        if (b!=0){
+            printf("%d",x/y);
+
+        }
+        else {
+            printf("error");
+        }
+        
     }
     return 0;
     
