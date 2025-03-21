@@ -15,7 +15,7 @@
 
 int main() {
     int n;
-    printf("Enter the number of rows for the reverse right-angled triangle: ");
+
     scanf("%d", &n);
 
     // Loop for each row
