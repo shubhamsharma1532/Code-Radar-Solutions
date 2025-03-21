@@ -31,7 +31,7 @@ int main() {
         }
         // Print stars
         for (j = 1; j <= i; j++) {
-            printf("*");
+            printf("* ");
         }
         // Move to the next line after each row
         printf("\n");
